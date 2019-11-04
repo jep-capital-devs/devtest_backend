@@ -19,20 +19,19 @@ There are 3 main folders, and 4 files, to make note of in this test.
 
 This is where the test module lives and where all of your code for the module should reside.
 
-### Data
 
-#### app/Frostbite/Test/Users/Data/_____FrostUsersDataCreator.php
+### app/Frostbite/Test/Users/Data/_____FrostUsersDataCreator.php
 
 This is where you would place any code that would create a table in the system
 
-#### app/Frostbite/Test/Users/Helpers/FrostUsers.php
+### app/Frostbite/Test/Users/Helpers/FrostUsers.php
 
 This is where you would place any code required for back-end functionality
 
-#### app/Frostbite/Test/Users/Helpers/FrostUsers.php
+### app/Frostbite/Test/Users/Helpers/FrostUsers.php
 
 If a model is decided to be needed it would be defined in this file.
 
-#### app/Frostbite/Test/Users/web.php
+### app/Frostbite/Test/Users/web.php
 
 Place all of your module routes here.
