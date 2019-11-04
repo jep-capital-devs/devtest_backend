@@ -35,3 +35,9 @@ If a model is decided to be needed it would be defined in this file.
 ### app/Frostbite/Test/Users/web.php
 
 Place all of your module routes here.
+
+## Front-end User Interaction
+
+All pages for the Laravel App's Front-End user interaction can be found here:
+
+*resources/views/themes/frostbite/blade/page*
