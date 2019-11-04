@@ -12,16 +12,7 @@ class FrostUsersDataCreator extends Migration
      */
     public function up()
     {
-        // Schema::create('products', function (Blueprint $table) {
-        //     $table->increments('id');
-        //     $table->string('slug')->unique();
-        //     $table->string('details')->nullable();
-        //     $table->integer('price');
-        //     $table->text('description');
-        //     $table->boolean('featured')->default(false);
-        //     $table->timestamps();
-        //     $table->softDeletes();
-        // });
+        // DATA TABLE CREATOR HERE
     }
 
     /**
@@ -31,6 +22,6 @@ class FrostUsersDataCreator extends Migration
      */
     public function down()
     {
-        // Schema::dropIfExists('products');
+        // PROPERLY SET UP A MIGRATION ROLLBACK
     }
 }
