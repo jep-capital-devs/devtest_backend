@@ -9,6 +9,7 @@
 //
 // class FrostUsers extends Model
 // {
+//     protected $table
 //     public function frostusers()
 //     {
 //     }
