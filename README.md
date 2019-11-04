@@ -1,12 +1,14 @@
 
-# Table of Contents
-[Business Notes](#business-notes)  
-[General Notes](#general-notes)  
+# Overview
 
-# Business Notes
-* __Business POC__: David Gonsalves
+The application has just started and our first priority is setting up a users
+system to allow users to be added and then for a user to be able to view all users
+in the system.
 
-# General Notes
-This is a theme scaffold. Front-end files to showcase to the public and front-end assets are all that reside within this repo.
-Back-end controllers and code all reside with the dependent modules of the theme which is configured in the __frostbite.config__ file.
+# What to Know
 
+## Frostbite Architecture
+
+All functionality for a Frostbite Laravel system is done in modules. We don't use
+Controllers but do use Helpers. All routes are done within the web.php of each module
+and will automatically register in the Laravel system.

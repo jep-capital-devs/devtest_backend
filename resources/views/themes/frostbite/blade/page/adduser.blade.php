@@ -6,6 +6,7 @@
   <input type="text" name="name_last" placeholder="Last Name">
   <input type="text" name="user_age" placeholder="Age">
   <input type="text" name="user_username" placeholder="Username">
+  {{-- STILL NEED A SELECT BOX FOR STATUS Enabled/Disable --}}
 
   <button type="submit" class="btn btn-primary">Purchase Plan</button>
 </form>
