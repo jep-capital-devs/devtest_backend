@@ -15,6 +15,14 @@ in the system.
 * You will be prompted to login, once done activate the theme
 * Begin working on the site
 
+## Troubleshooting
+
+If you run into:
+__No hint path defined for [theme].__
+
+* Navigate to http://YOUR_URL.com/admin/themes
+* You will be prompted to login, once done activate the theme
+
 # What to Know
 
 ## Frostbite Architecture
