@@ -1,6 +1,6 @@
 @php
-  use App\Frostbite\Test\Users\Helpers\Users;
-  $users = Users::getUsers();
+  use App\Frostbite\Test\Users\Helpers\FrostUsers;
+  $users = FrostUsers::getUsers();
 @endphp
 
 <h1>USER LIST</h1>

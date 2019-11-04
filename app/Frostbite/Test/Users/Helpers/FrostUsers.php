@@ -13,4 +13,10 @@ class FrostUsers
           )
         );
     }
+
+    public static function addUser()
+    {
+        // FUNCTION HERE. CAN BE DONE VIA MODEL OR ANOTHER LARAVEL METHOD TO
+        // ADD NEW DATA TO A TABLE
+    }
 }
