@@ -14,36 +14,6 @@ yarn-error.log
 # OS FILES
 .DS_Store
 
-# DATA MIGRATION (Blocking access to TCG\Voyager defined migrations)
-*add_voyager_user_fields.php*
-*create_data_types_table.php*
-*create_menu_table.php*
-*create_roles_table.php*
-*create_settings_table.php*
-*create_permission_table.php*
-*create_permission_role_table.php*
-*data_types__add__server_side.php*
-*add_route_to_menu_items_table.php*
-*create_translations_table.php*
-*make_table_name_nullable_in_permissions_table.php*
-*add_controller_to_data_types_table.php*
-*add_order_to_data_rows_table.php*
-*add_policyname_to_data_types_table.php*
-*add_group_to_settings_table.php*
-*add_user_role_relationship.php*
-*create_user_roles_table.php*
-*create_data_rows_table.php*
-*create_menus_table.php*
-*create_permissions_table.php*
-*add_user_settings.php*
-*add_details_to_data_types_table.php*
-*make_settings_value_nullable.php*
-*create_menu_items_table.php*
-*create_password_resets_table.php*
-*create_users_table.php*
-*_add_foreign_keys_to_*
-
-
 # DATABASE SEEDING
 **/seeds/SettingsTableSeeder.php
 **/seeds/TranslationsTableSeeder.php
