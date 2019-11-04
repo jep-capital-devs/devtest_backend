@@ -5,6 +5,14 @@ The application has just started and our first priority is setting up a users
 system to allow users to be added and then for a user to be able to view all users
 in the system.
 
+# You will need to
+
+* Create a fresh database
+* serve your application locally however you see fit
+* update the .env file to allow the application to work
+* run setup_script.sh in the bin directory.
+* Begin working on the site
+
 # What to Know
 
 ## Frostbite Architecture
