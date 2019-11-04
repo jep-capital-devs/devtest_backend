@@ -40,4 +40,4 @@ Place all of your module routes here.
 
 All pages for the Laravel App's Front-End user interaction can be found here:
 
-*resources/views/themes/frostbite/blade/page*
+__resources/views/themes/frostbite/blade/page__
