@@ -1,0 +1,116 @@
+#sidebar-filter {
+  width: 20%;
+  margin-right: 4%;
+  float: left;
+  padding: 0;
+  margin-bottom: 10px;
+  border-right: 1px solid;
+
+  @include breakpoint($bp-max-768) {
+    display: block;
+    float: none;
+    width: 90%;
+    margin: 0 auto;
+    border-left: 1px solid;
+  }
+
+  h1 {
+    margin: 0;
+    height: 60px;
+    line-height: 60px;
+    background: $color-blue-light;
+    color: $color-white;
+    padding-left: 3%;
+  }
+
+  input[type='checkbox'],
+  input[type='checkbox']+label {
+    display: block;
+    margin-top: 10px;
+  }
+
+  .filter-section {
+    padding: 15px 10% 15px 5%;
+    border-bottom: 1px solid;
+    min-height: 100px;
+  }
+}
+
+#main-content {
+  min-height: 100vh;
+  width: 75%;
+  display: inline-block;
+
+  @include breakpoint($bp-max-768) {
+    display: block;
+    width: 90%;
+    margin: 0 auto;
+  }
+
+  h1 {
+    margin-top: 40px;
+    border-bottom: 2px solid;
+    margin-bottom: 20px;
+
+    +p {
+      margin-bottom: 40px;
+      font-size: $font-size-l;
+    }
+  }
+
+  & #search-head {
+    margin-bottom: 40px;
+
+    & input {
+      padding: 7px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      border-top-right-radius: 0;
+      border-bottom-right-radius: 0;
+      margin-bottom: 10px;
+
+
+      @include breakpoint($bp-max-768) {
+        width: 80%;
+      }
+
+      &::-webkit-input-placeholder {
+        font-style: italic;
+      }
+
+      &:-moz-placeholder {
+        font-style: italic;
+      }
+
+      &::-moz-placeholder {
+        font-style: italic;
+      }
+
+      &:-ms-input-placeholder {
+        font-style: italic;
+      }
+
+    }
+
+    & a {
+      background: $color-blue-light;
+      color: $color-white;
+      border-radius: 8px;
+      border-top-left-radius: 0;
+      border-bottom-left-radius: 0;
+      height: 35.5px;
+      margin-left: -3px;
+      margin-top: -4px;
+      width: 80px;
+      transition-duration: 300ms;
+      outline: none;
+      font-size: $font-size-med;
+
+      @include breakpoint($bp-max-768) {
+        width: 19.5%;
+      }
+
+      @include button-bg($color-blue-light);
+    }
+  }
+}

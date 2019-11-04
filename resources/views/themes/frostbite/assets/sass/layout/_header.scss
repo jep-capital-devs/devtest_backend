@@ -1,0 +1,16 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the header of the site/application.
+// -----------------------------------------------------------------------------
+#header-navigation {
+  text-align: center;
+  background: $color-blue-light;
+  padding: 10px 0;
+
+  a {
+    color: $color-white;
+  }
+
+  h1,h2 {
+    margin: 0;
+  }
+}

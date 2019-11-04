@@ -1,0 +1,53 @@
+/*
+ ************ TYPOGRAPHY ***************
+*/
+
+// FAMILIES
+$text-font-stack: 'Open Sans', 'Helvetica Neue Light', 'Helvetica Neue', 'Helvetica', 'Arial', sans-serif !default;
+$code-font-stack: 'Courier New', 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Monaco', monospace !default;
+
+// SIZES
+$font-size-xxs:  10px;
+$font-size-xs:   12px;
+$font-size-sm:   14px;
+$font-size-med:  16px;
+$font-size-l:    18px;
+$font-size-xl:   20px;
+$font-size-xxl:  24px;
+$font-size-xxxl: 30px;
+
+
+/*
+ ************ COLORS ***************
+*/
+$color-white: #FBFBFB;
+$color-black: #151515;
+
+$color-blue-light: #0094A8;
+$color-blue-dark: #15232C;
+
+$color-green:       #78c339;
+$color-red:         #ee5c53;
+
+$text-color: rgb(34, 34, 34);
+$brand-color: rgb(229, 0, 80);
+$light-grey: rgb(237, 237, 237);
+$mid-grey: rgb(153, 153, 153);
+$dark-grey: rgb(68, 68, 68);
+
+/*
+ ************ DIMENSIONS ***************
+*/
+$max-width: 1180px;
+
+/*
+ *********** BREAKPOINTS ***************
+*/
+$bp-max-768: max-width 768px;
+$bp-min-769: min-width 769px;
+
+$bp-max-560: max-width 560px;
+$bp-min-561: min-width 561px;
+
+$bp-max-420: max-width 420px;
+$bp-min-421: min-width 421px;

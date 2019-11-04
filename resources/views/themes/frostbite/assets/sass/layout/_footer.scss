@@ -1,0 +1,13 @@
+// -----------------------------------------------------------------------------
+// This file contains all styles related to the footer of the site/application.
+// -----------------------------------------------------------------------------
+#site-footer {
+  width: 100%;
+  background: $color-blue-dark;
+  color: $color-white;
+  margin-top: 70px;
+  height: 40px;
+  line-height: 40px;
+  text-align: center;
+  transition: all ease-in .2s;
+}

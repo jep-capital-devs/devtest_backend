@@ -1,0 +1,20 @@
+{
+  "extends": "eslint:recommended",
+  "plugins": [
+  ],
+  "rules": {
+    "strict": ["off"],
+    "indent": ["warn", 2],
+    "semi": ["error", "always"],
+    "no-console": ["warn"],
+    "no-undef": ["warn"],
+    "no-undefined": ["warn"],
+    "no-unused-vars": ["warn"],
+    "no-redeclare": ["warn"],
+  },
+  "env": {
+    "es6": true,
+    "browser": true,
+    "jquery": true
+  }
+}
