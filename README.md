@@ -11,7 +11,7 @@ in the system.
 * serve your application locally however you see fit
 * update the .env file to allow the application to work
 * run setup_script.sh in the bin directory.
-* Navigate to http://YOUR_URL.com/admin/themes
+* Navigate to http://YOUR_URL/admin/themes
 * You will be prompted to login, once done activate the theme
 * Begin working on the site
 
