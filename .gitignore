@@ -62,7 +62,3 @@ yarn-error.log
 /resources/js
 /resources/sass
 /resources/lang
-
-#FROSTBITE SPECIFIC
-/app/Frostbite/**
-!/app/Frostbite/frostbite.config
