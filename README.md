@@ -25,6 +25,9 @@ __No hint path defined for [theme].__
 
 # What to Know
 
+We use Laravel Valet to locally serve our applications but feel free to locally
+serve the test application however you feel. We just find it easiest for us.
+
 ## Frostbite Architecture
 
 All functionality for a Frostbite Laravel system is done in modules. We don't use
