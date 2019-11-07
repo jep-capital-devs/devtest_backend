@@ -1,8 +1,9 @@
 #!/bin/bash
 
+cd ..
+
 ISROOTDIR=app/Frostbite/frostbite.config
 if test -f "$ISROOTDIR"; then
-  cd ..
   composer install
   php artisan key:generate
   php artisan migrate
