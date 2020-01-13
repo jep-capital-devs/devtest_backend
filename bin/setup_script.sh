@@ -28,4 +28,3 @@ else
   echo "You need to be in a Frostbite application root directory before continuing"
   exit 1
 fi
-f
