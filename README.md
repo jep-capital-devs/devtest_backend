@@ -49,7 +49,7 @@ This is where you would place any code that would create a table in the system
 
 This is where you would place any code required for back-end functionality
 
-### app/Frostbite/Test/FrostUsers/Helpers/FrostUsers.php
+### app/Frostbite/Test/FrostUsers/Models/FrostUsers.php
 
 If a model is decided to be needed it would be defined in this file.
 
